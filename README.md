@@ -1,0 +1,1 @@
+This is a ready for use Webpack template with multiple configuration files.
