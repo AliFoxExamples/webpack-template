@@ -1,0 +1,15 @@
+node_modules
+vscode
+git
+dist
+webpack.config.js
+webpack.config.production.js
+webpack.config.development.js
+webpack.config.common.js
+tsconfig.json
+normalize.css
+package.json
+package-lock.json
+.gitignore
+.eslintignore
+.eslintrc.json

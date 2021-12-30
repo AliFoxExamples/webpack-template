@@ -8,7 +8,9 @@
     "build": "webpack --config webpack.config.production.js",
     "watch": "webpack --config webpack.config.development.js --watch",
     "lint": "eslint ./src --ext .js --ext .html",
-    "lintFix": "eslint ./src --ext .html --ext .js --fix"
+    "lintFix": "eslint ./src --ext .html --ext .js --fix",
+    "prettier": "prettier ./src --check",
+    "prettierFix": "prettier ./src --write"
   },
   "keywords": [],
   "author": "",
