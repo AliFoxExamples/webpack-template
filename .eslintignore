@@ -1,0 +1,9 @@
+node_modules
+./vscode
+./git
+./dist
+webpack.config.js
+webpack.config.production.js
+webpack.config.development.js
+webpack.config.common.js
+tsconfig.json

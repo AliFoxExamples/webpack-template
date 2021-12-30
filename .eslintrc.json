@@ -1,0 +1,32 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "airbnb-base",
+    "plugin:import/recommended",
+    "plugin:prettier/recommended",
+    "prettier"
+  ],
+  "plugins": [
+    "import",
+    "prettier",
+    "html"
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "all",
+        "tabWidth": 2,
+        "semi": true,
+        "singleQuote": true,
+        "bracketSpacing": true,
+        "printWidth": 120
+      }
+    ]
+  }
+}
