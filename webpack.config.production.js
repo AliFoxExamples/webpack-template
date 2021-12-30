@@ -25,6 +25,8 @@ module.exports = merge(common, {
     new MiniCssExtractPlugin({
       filename: '[name].bundle.[contenthash].css',
     }),
-    new ESLintPlugin(),
+    new ESLintPlugin({
+      extensions: ['.js', '.ts', '.html']
+    }),
   ],
 });
