@@ -4,7 +4,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   context: path.resolve(__dirname, 'src'),
-  entry: './index.js',
+  entry: './index.ts',
   output: {
     filename: '[name].bundle.[contenthash].js',
     clean: true,
@@ -19,6 +19,11 @@ module.exports = {
         generator: {
           filename: 'img/[contenthash][ext]',
         }
+      },
+      {
+        test: /\.ts$/,
+        exclude: /node_modules/,
+        use: 'ts-loader'
       }
     ]
   },
