@@ -7,3 +7,7 @@ webpack.config.production.js
 webpack.config.development.js
 webpack.config.common.js
 tsconfig.json
+.eslintrc
+.eslintrc.js
+.eslintrc.json
+.prettierrc
