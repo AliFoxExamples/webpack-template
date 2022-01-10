@@ -12,4 +12,6 @@ package.json
 package-lock.json
 .gitignore
 .eslintignore
+.eslintrc
+.eslintrc.js
 .eslintrc.json
